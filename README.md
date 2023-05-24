@@ -19,6 +19,7 @@ To write a python program for simulating RARP protocols using UDP
 
 # PROGRAM :
 # CLIENT :
+```
 # Developed By : kishore.S
 # Register Number : 22008388
 import socket
@@ -33,7 +34,9 @@ while True:
         c.send(address[ip].encode())
     except KeyError:
         c.send("Not Found".encode())
+ ```
 # SERVER :
+```
 import socket
 s=socket.socket()
 s.connect(('localhost',8000))
@@ -41,6 +44,7 @@ while True:
     ip=input("Enter MAC Address : ")
     s.send(ip.encode())
     print("Logical Address",s.recv(1024).decode())
+```
 # OUTPUT :
 ![image](https://github.com/Kishore2o/EX-5/assets/118679883/d9d3e4b4-05aa-4455-9ae0-97c0b6c5dfae)
 # RESULT :
