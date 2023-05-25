@@ -20,8 +20,8 @@ To write a python program for simulating RARP protocols using UDP
 # PROGRAM :
 # CLIENT :
 ```
-# Developed By : kishore.S
-# Register Number : 22008388
+# Developed By : MUKESH P
+# Register Number : 212222240068
 import socket
 s=socket.socket()
 s.bind(('localhost',8000))
